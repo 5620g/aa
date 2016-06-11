@@ -249,6 +249,7 @@ function create_config( )
    "sudo",
     "whitelist",
     "msg_checks",
+    "supergroup"
     "webshot",
     "stats",
     "cpu",
@@ -271,7 +272,7 @@ function create_config( )
     "invsudo"
   },
 
-    sudo_users = {98120772,152065669,61690296,0,tonumber(our_id)},--Sudo users
+    sudo_users = {189308877,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[🌐 Nort AntiSpam Bot for Telegram SuperGroups.
 Based on LUA. 🌐
@@ -312,7 +313,6 @@ Http://github.com/nort-ir
 🔹 لیست راهنمای خصوصی 
 /help_pv
 ------------------------------
-@nortteam Anti Spam Nort
 ]],
 	help_text_super =[[
 Enable Help plugins please.
